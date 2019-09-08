@@ -1,0 +1,8 @@
+<div class="content" id="chart">
+  <svg width="960" height="500" id="svg_0" (click)="onSvgClick($event)" ></svg>
+  <div class="tooltip" [ngStyle]="tooltipModel.cover">
+      <div class="point" [ngStyle]="tooltipModel.point"></div>
+      <div class="content">{{tooltipModel.content}}</div>
+  </div>
+</div>
+
